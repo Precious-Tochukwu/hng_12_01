@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>color games</p>
+    <div class="game-container">
+        <h1 data-testid="gameInstructions">Guess the correct color!</h1>
+        <div id="colorBox" class="color-box" data-testid="colorBox"></div>
+        <div class="options">
+            <button class="color-option" data-testid="colorOption"></button>
+            <button class="color-option" data-testid="colorOption"></button>
+            <button class="color-option" data-testid="colorOption"></button>
+            <button class="color-option" data-testid="colorOption"></button>
+            <button class="color-option" data-testid="colorOption"></button>
+            <button class="color-option" data-testid="colorOption"></button>
+        </div>
+        <p id="gameStatus" data-testid="gameStatus"></p>
+        <p>Score: <span id="score" data-testid="score">0</span></p>
+        <button id="newGameButton" data-testid="newGameButton">New Game</button>
+    </div>
+    <audio id="correctSound" src="correct.mp3"></audio>
+    <audio id="wrongSound" src="wrong.mp3"></audio>
+    
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
 </html>
+
+
+
+
+
