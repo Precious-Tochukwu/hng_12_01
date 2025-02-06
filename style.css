@@ -8,7 +8,7 @@ body {
     align-items: center;
 }
 .game-container {
-    padding: 60px;
+    padding: 40px;
     background: linear-gradient(135deg, #ff5f6d, #ffc371);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     width: 500px;
@@ -38,7 +38,6 @@ body {
     transform: scale(1.1);
 }
 #newGameButton {
-    margin-top: 30px;
     padding: 20px 40px;
     border: none;
     background-color: #ff4500;
