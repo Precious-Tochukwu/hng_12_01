@@ -16,7 +16,7 @@ body {
 }
 .color-box {
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     margin: 30px auto;
     border: 4px solid #000;
 }
